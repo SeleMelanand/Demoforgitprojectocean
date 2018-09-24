@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="edu.practise.packagename.Trialclass1">
+        <methods>
+          <include name="methoda"/>
+        </methods>
+      </class> <!-- edu.practise.packagename.Trialclass1 -->
+      <class name="edu.practise.packagename.Trialclass2">
+        <methods>
+          <include name="methodb"/>
+        </methods>
+      </class> <!-- edu.practise.packagename.Trialclass2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
