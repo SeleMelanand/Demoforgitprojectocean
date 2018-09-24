@@ -41,7 +41,8 @@ public class DatafromexcelExtReport extends Wrapperclass{
 		test.assignAuthor("OceanAcademy");
 		test.assignCategory("Sanity Testing");
 		
-		//browser launch
+		//browser launch and maximze
+		
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
