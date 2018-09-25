@@ -63,7 +63,7 @@ public class DatafromexcelExtReport extends Wrapperclass{
 			
 		}
 		
-		
+		//Taking Screenshot on the page 
 		String destinationpath = "./reports/kpnsnapshot.jpeg";
 		FileUtils.copyFile(driver.getScreenshotAs(OutputType.FILE), new File(destinationpath));
 		
