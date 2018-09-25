@@ -83,6 +83,7 @@ public class DatafromexcelExtReport extends Wrapperclass{
 		
 		/*List<WebElement> produnames = driver.findElementsByXPath("//div[@class='a-row a-spacing-mini']//h2");
 		int count = produnames.size();
+		//iterated for the new branch
 		
 		for(int i= 0;i<=count;i++) {
 			String productname = driver.findElementByXPath("//div[@class='a-row a-spacing-mini']//h2[i]").getText();
